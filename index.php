@@ -63,67 +63,96 @@
                     <br/>
                     Me considero una persona autodidacta y critica conmigo mismo, me gusta mejorar cada vez m&aacute;s y afrontar nuevos retos.
                 </p>   
-                <a href="<!-- CV-Luis Cornejo Effio.pdf -->" download="CV Luis Fernando Cornejo Effio" class="btnCV">Descargar CV</a>
+                <a href="CV-Luis Cornejo Effio.pdf" download="CV Luis Fernando Cornejo Effio" class="btnCV">Descargar CV</a>
             </div>
         </section>
         <section id="skills">
             <div class="habilidades centrar-texto">
                 <h3>Mis Skills</h3>
                 <div class="skills">
-                    <div class="skill">
-                        <img class="skill__imagen" src="img/bootstrap.png" alt="Bootstrap"> 
-                        <div class="skill__descripcion">
-                            <p>Bootstrap</p>
-                            <p>Intermedio</p>
+                    <div class="skill sombra">
+                        <div class="skill-card" style="--i:url(../img/bootstrap.png)"></div>
+                        <div class="content">
+                            <h2>Bootstrap</h2>
+                            <p>
+                                Nivel: Intermedio
+                            </p>
                         </div>
-                    </div> 
-                    <div class="skill">
-                        <img class="skill__imagen" src="img/css.png" alt="CSS">
-                        <div class="skill__descripcion">
-                            <p>Css</p>
-                            <p>Intermedio</p>
+                    </div>
+                    <div class="skill sombra">
+                        <div class="skill-card" style="--i:url(../img/css.png)"></div>
+                        <div class="content">
+                            <h2>css</h2>
+                            <p>
+                                Nivel: Intermedio
+                            </p>
                         </div>
-                    </div> 
-                    <div class="skill">
-                        <img class="skill__imagen" src="img/github.png" alt="github">
-                        <div class="skill__descripcion">
-                            <p>github</p>
-                            <p>Basico</p>
+                    </div>
+                    <div class="skill sombra">
+                        <div class="skill-card" style="--i:url(../img/laravel.png)"></div>
+                        <div class="content">
+                            <h2>laravel</h2>
+                            <p>
+                                Nivel: Basico
+                            </p>
                         </div>
-                    </div> 
-                    <div class="skill">
-                        <img class="skill__imagen" src="img/html-5.png" alt="html">
-                        <div class="skill__descripcion">
-                            <p>HTML</p>
-                            <p>Intermedio</p>
+                    </div>
+                    <div class="skill sombra">
+                        <div class="skill-card" style="--i:url(../img/html-5.png)"></div>
+                        <div class="content">
+                            <h2>html</h2>
+                            <p>
+                                Nivel: Intermedio
+                            </p>
                         </div>
-                    </div> 
-                    <div class="skill">
-                        <img class="skill__imagen" src="img/java.png" alt="Java">
-                        <div class="skill__descripcion">
-                            <p>Java</p>
-                            <p>Intermedio</p>
+                    </div>
+                    <div class="skill sombra">
+                        <div class="skill-card" style="--i:url(../img/java.png)"></div>
+                        <div class="content">
+                            <h2>java</h2>
+                            <p>
+                                Nivel: Intermedio
+                            </p>
                         </div>
-                    </div> 
-                    <div class="skill">
-                        <img class="skill__imagen" src="img/php-code.png" alt="php">
-                        <div class="skill__descripcion centrar-texto">
-                            <p>PHP</p>
-                            <p>Intermedio</p>
+                    </div>
+                    <div class="skill sombra">
+                        <div class="skill-card" style="--i:url(../img/php-code.png)"></div>
+                        <div class="content">
+                            <h2>php</h2>
+                            <p>
+                                Nivel: Intermedio
+                            </p>
                         </div>
-                    </div> 
-                </div>   
+                    </div>
+                </div>  
             </div>
-        </section>
+        </section>    
         <section id="briefcase">
             <div class="projects centrar-texto">                        
                 <h3 class="centrar-texto">Mis Proyectos</h3>
-                <div class="works">
-                    <div class="work">                            
-                        <img class="work__imagen" src="img/descarga.jpg" alt="php">
-                        <div class="work__descripcion centrar-texto">
-                            <h4>Trabajo 1</h4>
-                            <p>lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                <div class="cards">
+                    <div class="card" style="--i:url(../img/img1.jpg)">
+                        <div class="content">
+                            <h2>Paisaje</h2>
+                            <a href="#">Ver Detalles</a>
+                        </div>
+                    </div>
+                    <div class="card" style="--i:url(../img/img2.jpg)">
+                        <div class="content">
+                            <h2>Paisaje</h2>
+                            <a href="#">Ver Detalles</a>
+                        </div>
+                    </div>
+                    <div class="card" style="--i:url(../img/img3.jpg)">
+                        <div class="content">
+                            <h2>Paisaje</h2>
+                            <a href="#">Ver Detalles</a>
+                        </div>
+                    </div>
+                    <div class="card" style="--i:url(../img/img3.jpg)">
+                        <div class="content">
+                            <h2>Paisaje</h2>
+                            <a href="#">Ver Detalles</a>
                         </div>
                     </div>
                 </div>
@@ -132,22 +161,25 @@
         <section id="contact">
             <div class="form centrar-texto">
                 <form action="" method="post">
-                    <h3>Contacto</h3>
-                    <div class="form-group">
-                        <label for="">Nombre: </label>
-                        <input type="text" name="nombre" id="nombre">
-                    </div>
-                    <div class="form-group">
-                        <label for="">Correo: </label>
-                        <input type="text" name="nombre" id="nombre">
-                    </div>
-                    <div class="form-group">
-                        <label for="">Asunto: </label>
-                        <input type="text" name="nombre" id="nombre">
-                    </div>
-                    <div class="form-group">
-                        <label for="">Mensaje: </label>
-                        <input type="text" name="nombre" id="nombre">
+                    <div class="formulario">
+                        <h3>Contacto</h3>
+                        <div class="form-group">
+                            <label for="">Nombre: </label>
+                            <input type="text" name="nombre" id="nombre">
+                        </div>
+                        <div class="form-group">
+                            <label for="">Correo: </label>
+                            <input type="text" name="nombre" id="nombre">
+                        </div>
+                        <div class="form-group">
+                            <label for="">Asunto: </label>
+                            <input type="text" name="nombre" id="nombre">
+                        </div>
+                        <div class="form-group">
+                            <label for="">Mensaje: </label>
+                            <input type="text" name="nombre" id="nombre">
+                        </div>
+
                     </div>
                 </form>
             </div>    
@@ -164,14 +196,9 @@
                         <i class="fab fa-github"></i>
                     </a>
                 </div>
-                <div class="contenedor-icono">
-                    <a href="https://wa.me/51926660568" target="_blank" class="gmail">
-                        <i class="far fa-envelope"></i>
-                    </a>
-                </div>
-            </div>
+            </div>            
             <div class="derechos">
-                <p>Todos los derechos reservados 2021 - Luis Fernando Cornejo Effio </p>
+                <p> &copy; 2021 - Luis Fernando Cornejo Effio</p>
             </div>            
         </footer>
         <script src="js/menu.js"></script>
