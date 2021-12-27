@@ -164,17 +164,17 @@
                 <form action="mail.php" method="post">
                     <div class="contact">
                         <div class="inputs">
+                            <input type="hidden" name="miemail">
                             <input type="text" placeholder="Nombre" class="input" name="name">
-                            <input type="text" placeholder="Correo" class="input" name="mail">                            
+                            <input type="text" placeholder="Correo" class="input" name="email">                            
                             <input type="text" placeholder="Telefono" class="input" name="phone">
                             <input type="text" placeholder="Asunto" class="input" name="subject">                        
                         </div>
                         <div class="msj">
                             <textarea placeholder="Mensaje" name="msj"></textarea>
-                            <input type="submit" class="submit" value="Enviar">
+                            <button type="submit" class="submit" value="Enviar" name="enviar">
                         </div>
-                    </div>
-                    
+                    </div>                    
                 </form>
             </div>
         </section>
