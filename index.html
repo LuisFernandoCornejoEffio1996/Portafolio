@@ -159,30 +159,24 @@
             </div>
         </section>
         <section id="contact">
-            <div class="form centrar-texto">
-                <form action="" method="post">
-                    <div class="formulario">
-                        <h3>Contacto</h3>
-                        <div class="form-group">
-                            <label for="">Nombre: </label>
-                            <input type="text" name="nombre" id="nombre">
+            <div class="container-form">
+                <h3 class="centrar-texto">Contactame</h3>
+                <form action="mail.php" method="post">
+                    <div class="contact">
+                        <div class="inputs">
+                            <input type="text" placeholder="Nombre" class="input" name="name">
+                            <input type="text" placeholder="Correo" class="input" name="mail">                            
+                            <input type="text" placeholder="Telefono" class="input" name="phone">
+                            <input type="text" placeholder="Asunto" class="input" name="subject">                        
                         </div>
-                        <div class="form-group">
-                            <label for="">Correo: </label>
-                            <input type="text" name="nombre" id="nombre">
+                        <div class="msj">
+                            <textarea placeholder="Mensaje" name="msj"></textarea>
+                            <input type="submit" class="submit" value="Enviar">
                         </div>
-                        <div class="form-group">
-                            <label for="">Asunto: </label>
-                            <input type="text" name="nombre" id="nombre">
-                        </div>
-                        <div class="form-group">
-                            <label for="">Mensaje: </label>
-                            <input type="text" name="nombre" id="nombre">
-                        </div>
-
                     </div>
+                    
                 </form>
-            </div>    
+            </div>
         </section>
         <footer class="contenedor-footer centrar-texto">
             <div class="redes-sociales">
