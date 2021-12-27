@@ -694,14 +694,14 @@ footer p{
     /* skills */
     .skills{
         grid-template-columns: repeat(1, 1fr);
-        gap: 2rem;
+        gap: 2rem;        
+        width: 80%;
     }
 
     /* Proyectos */
     .cards{
         gap: 2.5rem;
         grid-template-columns: repeat(1, 1fr);
-        width: 80%;
     }
     
     .card{
