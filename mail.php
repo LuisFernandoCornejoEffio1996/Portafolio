@@ -5,7 +5,7 @@
     $asunto = $_POST['subject'];
     $msjCliente    = $_POST['msj'];
 
-    $paraMi    = $_POST['miemail'];
+    $paraMi = $_POST['miemail'];
     $tituloCliente  = "Mi Formulario de Contacto..";
     $mensajeCliente = "<html>".
         "<head><title>Email de Prueba</title>".
@@ -72,7 +72,7 @@
     $cabecerasCliente  = 'MIME-Version: 1.0' . "\r\n";
     $cabecerasCliente .= 'Content-type: text/html; charset=utf-8' . "\r\n";
     $cabecerasCliente .= 'From: Monsefú Perú<luisfernandocornejoeffio@gmail.com>';
-    $enviadoCliente   = mail($parami, $tituloCliente, $mensajeCliente, $cabecerasCliente);
+    $enviadoCliente   = mail($paraMi, $tituloCliente, $mensajeCliente, $cabecerasCliente);
 
 
         
