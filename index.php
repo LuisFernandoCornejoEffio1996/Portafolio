@@ -172,7 +172,7 @@
                         </div>
                         <div class="msj">
                             <textarea placeholder="Mensaje" name="msj"></textarea>
-                            <button type="submit" class="submit" value="Enviar" name="enviar">
+                            <input type="submit" class="submit" value="Enviar" name="enviar">
                         </div>
                     </div>                    
                 </form>
