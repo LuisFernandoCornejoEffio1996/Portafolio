@@ -158,26 +158,25 @@
                 </div>
             </div>
         </section>
-        <section id="contact">
+        <!-- <section id="contact">
             <div class="container-form">
                 <h3 class="centrar-texto">Contactame</h3>
-                <form action="mail.php" method="post">
+                <form action="correo.php" method="post">
                     <div class="contact">
                         <div class="inputs">
-                            <input type="hidden" name="miemail">
-                            <input type="text" placeholder="Nombre" class="input" name="name">
-                            <input type="text" placeholder="Correo" class="input" name="email">                            
-                            <input type="text" placeholder="Telefono" class="input" name="phone">
-                            <input type="text" placeholder="Asunto" class="input" name="subject">                        
+                            <input type="text" placeholder="Nombre" class="input" name="nombre">
+                            <input type="text" placeholder="Correo" class="input" name="correo">                            
+                            <input type="text" placeholder="Telefono" class="input" name="telefono">
+                            <input type="text" placeholder="Asunto" class="input" name="asunto">                        
                         </div>
                         <div class="msj">
-                            <textarea placeholder="Mensaje" name="msj"></textarea>
+                            <textarea placeholder="Mensaje" name="mensaje"></textarea>
                             <input type="submit" class="submit" value="Enviar" name="enviar">
                         </div>
                     </div>                    
                 </form>
             </div>
-        </section>
+        </section> -->
         <footer class="contenedor-footer centrar-texto">
             <div class="redes-sociales">
                 <div class="contenedor-icono">
@@ -188,6 +187,11 @@
                 <div class="contenedor-icono">
                     <a href="https://github.com/LuisFernandoCornejoEffio1996" target="_blank" class="git-hub">
                         <i class="fab fa-github"></i>
+                    </a>
+                </div>
+                <div class="contenedor-icono">
+                    <a href="mailto:luisfernandocornejoeffio@gmail.com?asunto=Contactarme%20con%20usted" target="_blank" class="gmail">
+                        <i class="fas fa-envelope"></i>
                     </a>
                 </div>
             </div>            

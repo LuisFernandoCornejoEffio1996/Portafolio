@@ -480,6 +480,10 @@ footer .redes-sociales .git-hub{
     background: #000;
 }
 
+footer .redes-sociales .gmail{
+    background: #BB001B;
+}
+
 footer .redes-sociales a i{
     font-size: 3rem;
     line-height: 6rem;
