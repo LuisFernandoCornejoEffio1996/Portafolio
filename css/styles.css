@@ -694,8 +694,11 @@ footer p{
     /* skills */
     .skills{
         grid-template-columns: repeat(1, 1fr);
-        gap: 2rem;        
-        width: 80%;
+        gap: 2rem;   
+    }
+
+    .skill{
+        width: 90%;
     }
 
     /* Proyectos */
